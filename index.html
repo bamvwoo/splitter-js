@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./splitter-style.css">
+    <script type="text/javascript" src="./splitter.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="panel1">1</div>
+        <div id="panel2">2</div>
+    </div>
+    <script>
+        const splitter = new Splitter({
+            type: 'vertical',
+            panels: [
+                {
+                    id: "",
+                    unit: "px",
+                    size: ""
+                },
+                {
+                    id: "",
+                    unit: "%",
+                    size: ""
+                }
+            ]
+        });
+    </script>
+</body>
+</html>
